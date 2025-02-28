@@ -76,9 +76,9 @@ $total15 = 0;
 $total20 = 0;
 
 foreach ($expenditures as $name => $cost) {
-    $increase10 = $cost * 1.10;
-    $increase15 = $cost * 1.15;
-    $increase20 = $cost * 1.20;
+    $increase10 = $cost * 0.10;
+    $increase15 = $cost * 0.15;
+    $increase20 = $cost * 0.20;
 
     echo "<tr>";
     echo "<td>" . $name . "</td>";
